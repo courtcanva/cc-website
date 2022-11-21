@@ -8,8 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "test": "jest --watch",
-    "cypress": "cypress open"
+    "test": "jest",
+    "test --w": "jest --watch",
+    "cypress": "cypress open",
+    "pre-commit": "npm run prettier && npm run lint && npm run test"
   },
   "engineStrict": true,
   "engines": {
