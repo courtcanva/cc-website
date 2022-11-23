@@ -13,7 +13,7 @@ const WhyChooseUs = () => {
         <CardContainer />
         <Link
           href="/design"
-          className="text-base rounded-md w-40 text-center py-1.5 px-6 mt-6 bg-btn hover:bg-btnHover font-light "
+          className="rounded-md w-40 text-center py-1.5 px-6 mt-6 bg-btn hover:bg-btnHover font-light "
         >
           Start free trial
         </Link>

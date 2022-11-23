@@ -12,7 +12,7 @@ const HeroInfo = () => {
       </h4>
       <Link
         href="/design"
-        className="block text-base rounded-md w-[100%] md:w-40  py-1.5 px-6 mt-6 bg-btn text-center hover:bg-btnHover "
+        className="block rounded-md w-[100%] md:w-40  py-1.5 px-6 mt-6 bg-btn text-center hover:bg-btnHover "
       >
         Design Now!
       </Link>

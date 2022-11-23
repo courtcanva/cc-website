@@ -10,7 +10,7 @@ const CardItem = ({ ...item }) => {
           <h4 className="text-[20px] font-light pt-12 ">Design Fees</h4>
           <p className="font-light text-[12px] mb-4">free</p>
           {item.details.map((detailItem: string, index: number) => (
-            <ReasonDetails key={index} gradient={item.gradient} />
+            <ReasonDetails key={index} gradient={item.gradient} details={detailItem} />
           ))}
         </div>
       </div>
