@@ -38,7 +38,9 @@ module.exports = {
     },
     backgroundImage: {
       template: 'linear-gradient(33.75deg, #00B7BB 0%, #148EFF 100%)',
+      cardBorderBlue:'linear-gradient(33.75deg, #2AF598 0%, #009EFD 100%)',
       btn:'linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%)',
+      btnHover:'linear-gradient(33.75deg, #E961FF 0%, #EE0020 100%)',
       cardBorder:'linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)'
     },
     extend: {

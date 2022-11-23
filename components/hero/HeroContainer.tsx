@@ -1,6 +1,6 @@
-import React from 'react'
-import Basketball from './Basketball'
-import HeroInfo from './HeroInfo'
+import React from "react";
+import Basketball from "./Basketball";
+import HeroInfo from "./HeroInfo";
 
 const HeroContainer = () => {
   return (
@@ -8,7 +8,7 @@ const HeroContainer = () => {
       <HeroInfo />
       <Basketball />
     </section>
-  )
-}
+  );
+};
 
-export default HeroContainer
+export default HeroContainer;

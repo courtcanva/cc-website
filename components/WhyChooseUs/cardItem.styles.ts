@@ -1,6 +1,3 @@
-
-export const gradient = ["bg-template","bg-btn","bg-cardBorder"];
-
 export const cartItemStyles = [
   {
     title: "reason one",
@@ -11,18 +8,13 @@ export const cartItemStyles = [
       "w-40",
       "py-1.5",
       "px-6",
-      "bg-template",
+      "bg-cardBorderBlue",
       "relative",
       "top-4",
     ].join(" "),
     details: ["reason blablabla", "reason blablabl", "reasonblablabla"],
-    containerStyles: [
-      "w-full",
-      "rounded-lg",
-      "bg-template",
-      "p-1",
-    ].join(" "),
-    gradient: ["bg-template"],
+    containerStyles: ["w-full", "rounded-lg", "bg-template", "p-1"].join(" "),
+    gradient: ["bg-cardBorderBlue"],
   },
   {
     title: "reason two",
@@ -38,12 +30,7 @@ export const cartItemStyles = [
       "top-4",
     ].join(" "),
     details: ["reason blablabla", "reason blablabl", "reasonblablabla"],
-    containerStyles: [
-      "w-full",
-      "rounded-lg",
-      "bg-btn",
-      "p-1",
-    ].join(" "),
+    containerStyles: ["w-full", "rounded-lg", "bg-btn", "p-1"].join(" "),
     gradient: ["bg-btn"],
   },
   {
@@ -60,12 +47,7 @@ export const cartItemStyles = [
       "top-4",
     ].join(" "),
     details: ["reason blablabla", "reason blablabl", "reasonblablabla"],
-    containerStyles: [
-      "w-full",
-      "rounded-lg",
-      "bg-cardBorder",
-      "p-1",
-    ].join(" "),
+    containerStyles: ["w-full", "rounded-lg", "bg-cardBorder", "p-1"].join(" "),
     gradient: ["bg-cardBorder"],
   },
 ];
