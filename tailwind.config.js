@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     colors: {
       white85: 'rgba(255, 255, 255, 0.85);',
-      backgroundColor:'#323232'
+      backgroundColor:'#4A4A4A'
     },
     fontSize: {
       h2: [
