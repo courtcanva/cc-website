@@ -3,11 +3,11 @@ import React from "react";
 
 const HeroInfo = () => {
   return (
-    <section className="flex flex-col  mx-8 max-w-[40%]">
-      <h1 className="text-[48px] font-semibold leading-tight w-80">
+    <section className="flex flex-col  w-[328px] mx-8 lg:w-[450px]">
+      <h1 className="text-[40px] md:text-5xl font-semibold leading-tight">
         Build your dream court width No effort
       </h1>
-      <h4 className="text-xl font-light leading-snug w-80 mt-1">
+      <h4 className="text-xl md:text-xl font-light leading-snug mt-1">
         Start to design your court with CourtCanva
       </h4>
       <Link

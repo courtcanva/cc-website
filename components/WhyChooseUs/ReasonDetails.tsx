@@ -13,7 +13,7 @@ const ReasonDetails = ({ gradient }: Props) => {
       >
         <AiOutlineCheck color="white" size="12px" />
       </div>
-      <span className="inline">Reason 1 baba bla </span>
+      <span className="inline text-base">Reason baba bla </span>
     </div>
   );
 };

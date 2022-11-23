@@ -1,9 +1,8 @@
 export const cartItemStyles = [
   {
-    title: "reason one",
+    title: "Reason one",
     titleStyles: [
       "text-center",
-      "text-base",
       "rounded-md",
       "w-40",
       "py-1.5",
@@ -12,12 +11,12 @@ export const cartItemStyles = [
       "relative",
       "top-4",
     ].join(" "),
-    details: ["reason blablabla", "reason blablabl", "reasonblablabla"],
+    details: ["Reason blablabla", "reason blablabl", "reasonblablabla"],
     containerStyles: ["w-full", "rounded-lg", "bg-template", "p-1"].join(" "),
     gradient: ["bg-cardBorderBlue"],
   },
   {
-    title: "reason two",
+    title: "Reason two",
     titleStyles: [
       "text-center",
       "text-base",
@@ -34,7 +33,7 @@ export const cartItemStyles = [
     gradient: ["bg-btn"],
   },
   {
-    title: "reason three",
+    title: "Reason three",
     titleStyles: [
       "text-center",
       "text-base",

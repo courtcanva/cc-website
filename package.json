@@ -20,6 +20,7 @@
     "yarn": "please-use-npm"
   },
   "dependencies": {
+    "@next/font": "^13.0.4",
     "@splinetool/react-spline": "^2.2.3",
     "@splinetool/runtime": "^0.9.143",
     "@types/node": "18.11.9",
