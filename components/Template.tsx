@@ -1,26 +1,20 @@
 import Image from 'next/image';
-import pic1 from '../public/template/1.png';
-import pic2 from '../public/template/2.png';
-import pic3 from '../public/template/3.png';
-import pic4 from '../public/template/4.png';
-import pic5 from '../public/template/5.png';
-import pic6 from '../public/template/6.png';
 import { useInView } from 'react-intersection-observer';
 
 const Template = () => {
   const { ref, inView } = useInView();
 
   const arr = [
-    [pic1, 'animate-template1'],
-    [pic2, 'animate-template2'],
-    [pic3, 'animate-template3'],
-    [pic4, 'animate-template4'],
-    [pic5, 'animate-template5'],
-    [pic6, 'animate-template6'],
+    'animate-template1',
+    'animate-template2',
+    'animate-template3',
+    'animate-template4',
+    'animate-template5',
+    'animate-template6',
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-12 pt-12 pb-20 bg-template">
+    <section className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-12 pt-12 pb-20 bg-template overflow-hidden">
       <h2 className="text-h2">Template Collection</h2>
       <p className="text-p text-white85 mb-8">Your Design. Your court.</p>
       <div className="flex cursor-pointer" ref={ref}>
@@ -28,16 +22,18 @@ const Template = () => {
           return (
             <Image
               key={index}
-              src={e[0]}
-              alt=""
-              className={`${index === 0 ? '-ml-3' : '-ml-52'} flex-1 ${
-                inView && e[1]
-              } hover:z-0`}
+              src={`/template/${index + 1}.jpg`}
+              width={356}
+              height={198}
+              alt="template"
+              className={`${index !== 0 && '-ml-48'} flex-1 ${
+                inView && e
+              } drop-shadow-[-6px_6px_8px_rgba(0,0,0,0.25)] w-1`}
             />
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 
