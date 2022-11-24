@@ -23,6 +23,7 @@
     "@next/font": "^13.0.4",
     "@splinetool/react-spline": "^2.2.3",
     "@splinetool/runtime": "^0.9.143",
+    "@next/font": "^13.0.4",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
@@ -33,6 +34,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
+    "react-intersection-observer": "^9.4.1",
     "react-intersection-observer": "^9.4.1",
     "typescript": "4.9.3"
   },
