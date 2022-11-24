@@ -11,8 +11,8 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-poppins)', ...defaultTheme.fontFamily.sans],
       },
-      colors: {
-        white85: 'rgba(255, 255, 255, 0.85);',
+      opacity: {
+        85: '.85',
       },
       fontSize: {
         h2: [
@@ -33,7 +33,7 @@ module.exports = {
         ],
       },
       backgroundImage: {
-        template: 'linear-gradient(33.75deg, #00B7BB 0%, #148EFF 100%)',
+        blue: 'linear-gradient(33.75deg, #00B7BB 0%, #148EFF 100%)',
       },
       keyframes: {
         template: {

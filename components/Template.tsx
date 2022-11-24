@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 const Template = () => {
   const { ref, inView } = useInView();
 
-  const arr = [
+  const animations = [
     'animate-template1',
     'animate-template2',
     'animate-template3',
@@ -14,11 +14,11 @@ const Template = () => {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-12 pt-12 pb-20 bg-template overflow-hidden">
-      <h2 className="text-h2">Template Collection</h2>
-      <p className="text-p text-white85 mb-8">Your Design. Your court.</p>
-      <div className="flex cursor-pointer" ref={ref}>
-        {arr.map((e, index) => {
+    <section className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-12 pt-12 pb-20 bg-blue overflow-hidden text-white">
+      <h2 className="text-h2 ">Template Collection</h2>
+      <p className="text-p opacity-85 mb-8">Your Design. Your court.</p>
+      <div className="flex" ref={ref}>
+        {animations.map((e, index) => {
           return (
             <Image
               key={index}
