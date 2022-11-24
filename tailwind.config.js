@@ -76,7 +76,7 @@ module.exports = {
         template4: 'template 0.25s ease-in-out 0.75s backwards',
         template5: 'template 0.25s ease-in-out 1s backwards',
         template6: 'template 0.25s ease-in-out 1.25s backwards',
-        'enterSlow':'enter 3s linear'
+        'enterSlow':'enter 3s ease-in-out'
       },
     },
   },
