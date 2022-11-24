@@ -14,6 +14,7 @@ export const cartItemStyles = [
     details: ["reason blablabla", "reason blablabl", "reason blablabla"],
     containerStyles: ["w-full", "rounded-lg", "bg-cardBorderBlue", "p-1"].join(" "),
     gradient: ["bg-cardBorderBlue"],
+    animation:'animate-enterSlow'
   },
   {
     title: "Reason two",
@@ -30,6 +31,7 @@ export const cartItemStyles = [
     details: ["reason blablabla", "reason blablabl", "reasonblablabla"],
     containerStyles: ["w-full", "rounded-lg", "bg-btn", "p-1"].join(" "),
     gradient: ["bg-btn"],
+    animation:'animate-enterCard2'
   },
   {
     title: "Reason three",
@@ -46,5 +48,6 @@ export const cartItemStyles = [
     details: ["reason blablabla", "reason blablabl", "reasonblablabla"],
     containerStyles: ["w-full", "rounded-lg", "bg-cardBorder", "p-1"].join(" "),
     gradient: ["bg-cardBorder"],
+    animation:'animate-enterCard3'
   },
 ];
