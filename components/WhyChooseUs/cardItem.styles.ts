@@ -12,7 +12,7 @@ export const cartItemStyles = [
       "top-4",
     ].join(" "),
     details: ["reason blablabla", "reason blablabl", "reason blablabla"],
-    containerStyles: ["w-full", "rounded-lg", "bg-template", "p-1"].join(" "),
+    containerStyles: ["w-full", "rounded-lg", "bg-cardBorderBlue", "p-1"].join(" "),
     gradient: ["bg-cardBorderBlue"],
   },
   {

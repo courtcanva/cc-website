@@ -1,12 +1,14 @@
 import React from "react";
-import Basketball from "./Basketball";
+import BasketballCourt from "./BasketballCourt";
+import Basketball from "./BasketballCourt";
 import HeroInfo from "./HeroInfo";
+
 
 const HeroContainer = () => {
   return (
-    <section className="max-w-7xl bg-template flex flex-col md:flex-row items-center justify-between md:space-x-2 lg:space-x-8 h-[85vh] md:h-[65vh] relative mx-auto">
+    <section className="max-w-7xl bg-template flex flex-col md:flex-row items-center justify-between h-[90vh] md:h-[65vh] relative gap-7 md:gap-0 lg:gap-[99px] mx-auto">
       <HeroInfo />
-      <Basketball />
+      <BasketballCourt />
     </section>
   );
 };
