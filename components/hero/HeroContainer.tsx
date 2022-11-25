@@ -4,12 +4,16 @@ import HeroInfo from "./HeroInfo";
 
 
 
+
 const HeroContainer = () => {
   return (
-    <section className="max-w-7xl bg-blue flex flex-col md:flex-row items-center justify-between h-[90vh] md:h-[65vh] relative gap-7 md:gap-0 lg:gap-[99px] mx-auto">
+
+    <section className="max-w-7xl bg-blue flex flex-col pt-[45px] md:pt-auto margin-auto md:justify-center h-[90vh] md:h-[65vh] md:w-[100vw] relative  mx-auto border-white text-white z-0 ">
       <HeroInfo />
       <BasketballCourt />
     </section>
+   
+   
   );
 };
 

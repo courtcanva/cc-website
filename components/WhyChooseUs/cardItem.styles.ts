@@ -10,6 +10,7 @@ export const cartItemStyles = [
       "bg-cardBorderBlue",
       "relative",
       "top-4",
+      'text-btnText'
     ].join(" "),
     details: ["reason blablabla", "reason blablabl", "reason blablabla"],
     containerStyles: ["w-full","pl-4", "bg-cardBorderOne", "h-cardBody","border-gradient"].join(" "),
@@ -27,6 +28,7 @@ export const cartItemStyles = [
       "bg-btn",
       "relative",
       "top-4",
+      'text-btnText'
     ].join(" "),
     details: ["reason blablabla", "reason blablabl", "reasonblablabla"],
     containerStyles: ["w-full","pl-4", "bg-cardBorderTwo", "h-cardBody","border-gradient"].join(" "),
@@ -44,6 +46,7 @@ export const cartItemStyles = [
       "bg-cardBorder",
       "relative",
       "top-4",
+      'text-btnText'
     ].join(" "),
     details: ["reason blablabla", "reason blablabl", "reasonblablabla"],
     containerStyles: ["w-full","pl-4", "bg-cardBorderThree", "h-cardBody","border-gradient"].join(" "),

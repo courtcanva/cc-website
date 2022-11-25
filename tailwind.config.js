@@ -9,8 +9,9 @@ module.exports = {
         sans: ["var(--font-poppins)", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        white85: "rgba(255, 255, 255, 0.85);",
         backgroundColor: "#4A4A4A",
+        white: "#ffffff",
+        btnText: "#f9f9f9",
       },
       opacity: {
         85: ".85",
@@ -47,11 +48,14 @@ module.exports = {
         btn: "linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%)",
         btnHover: "linear-gradient(33.75deg, #E961FF 0%, #EE0020 100%)",
         cardBorder: "linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)",
-        cardBorderOne:"linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #2AF598 0%, #009EFD 100%)",
-        cardBorderTwo:"linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%)",
-        cardBorderThree:"linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)"
+        cardBorderOne:
+          "linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #2AF598 0%, #009EFD 100%)",
+        cardBorderTwo:
+          "linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%)",
+        cardBorderThree:
+          "linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)",
       },
- 
+
       height: {
         cardBody: "300px",
       },
@@ -61,11 +65,8 @@ module.exports = {
           "100%": { transform: "translateX(0)" },
         },
         enter: {
-          "0%": { left: "100%" },
-          "25%": { left: "75%" },
-          "50%": { left: "50%" },
-          "75%": { left: "25%" },
-          "100%": { left: "0" },
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0)" },
         },
       },
       animation: {
@@ -76,8 +77,8 @@ module.exports = {
         template5: "template 0.25s ease-in-out 1s backwards",
         template6: "template 0.25s ease-in-out 1.25s backwards",
         enterSlow: "enter 1s ease-in-out",
-        enterCard2: "enter 1s ease-in-out 0.5s backwards",
-        enterCard3: "enter 1s ease-in-out 1s backwards",
+        enterCard2: "enter 1s  ease-in-out 0.5s backwards",
+        enterCard3: "enter 1s ease-in-out 1s backwards ",
       },
     },
   },
