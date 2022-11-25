@@ -1,10 +1,14 @@
-import Template from '../components/Template';
+import Template from "../components/Template";
+import Intro from "../components/Intro";
 
 export default function Home() {
   return (
     <>
-      {/* To test scroll animation, uncomment the line below
-      <div className="h-screen">123321</div> */}
+      <Template />
+      <Template />
+      <Template />
+      <Template />
+      <Intro />
       <Template />
     </>
   );
