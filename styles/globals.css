@@ -7,3 +7,10 @@ body {
   font-family: Poppins;
   color: #fff;
 }
+
+.border-gradient {
+  border:1px solid transparent;
+  border-radius:8px;
+  background-clip: padding-box,border-box;
+  background-origin: padding-box,border-box;
+}

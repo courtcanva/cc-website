@@ -12,7 +12,7 @@ const HeroInfo = () => {
       </h4>
       <Link
         href="design.courcanva.com"
-        className="rounded-md  w-[366px] md:w-40  py-1.5 mt-4 md:mt-6 bg-btn  hover:bg-btnHover mx-auto md:mx-0 text-[#F9F9F9] tracking-[.01em] text-center"
+        className="rounded-md  w-[366px] md:w-40  py-1.5 mt-4 md:mt-6 bg-btn  hover:bg-btnHover mx-auto md:mx-0 text-[#F9F9F9] tracking-[.01em] text-center "
       >
         Design Now!
       </Link>

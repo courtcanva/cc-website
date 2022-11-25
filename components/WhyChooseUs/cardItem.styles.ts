@@ -12,7 +12,7 @@ export const cartItemStyles = [
       "top-4",
     ].join(" "),
     details: ["reason blablabla", "reason blablabl", "reason blablabla"],
-    containerStyles: ["w-full", "rounded-lg", "bg-cardBorderBlue", "p-1"].join(" "),
+    containerStyles: ["w-full","pl-4", "bg-cardBorderOne", "h-cardBody","border-gradient"].join(" "),
     gradient: ["bg-cardBorderBlue"],
     animation:'animate-enterSlow'
   },
@@ -29,7 +29,7 @@ export const cartItemStyles = [
       "top-4",
     ].join(" "),
     details: ["reason blablabla", "reason blablabl", "reasonblablabla"],
-    containerStyles: ["w-full", "rounded-lg", "bg-btn", "p-1"].join(" "),
+    containerStyles: ["w-full","pl-4", "bg-cardBorderTwo", "h-cardBody","border-gradient"].join(" "),
     gradient: ["bg-btn"],
     animation:'animate-enterCard2'
   },
@@ -46,7 +46,7 @@ export const cartItemStyles = [
       "top-4",
     ].join(" "),
     details: ["reason blablabla", "reason blablabl", "reasonblablabla"],
-    containerStyles: ["w-full", "rounded-lg", "bg-cardBorder", "p-1"].join(" "),
+    containerStyles: ["w-full","pl-4", "bg-cardBorderThree", "h-cardBody","border-gradient"].join(" "),
     gradient: ["bg-cardBorder"],
     animation:'animate-enterCard3'
   },

@@ -47,7 +47,11 @@ module.exports = {
         btn: "linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%)",
         btnHover: "linear-gradient(33.75deg, #E961FF 0%, #EE0020 100%)",
         cardBorder: "linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)",
+        cardBorderOne:"linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #2AF598 0%, #009EFD 100%)",
+        cardBorderTwo:"linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%)",
+        cardBorderThree:"linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)"
       },
+ 
       height: {
         cardBody: "300px",
       },
