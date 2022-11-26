@@ -4,10 +4,10 @@ import CardContainer from "./CardContainer";
 
 const WhyChooseUs = () => {
   return (
-    <section className="px-8 py-12 relative bg-backgroundColor  max-w-7xl mx-auto text-white">
+    <section className="md:px-8 md:py-12 lg:p-12 w-[100vw] relative bg-backgroundColor  max-w-7xl mx-auto text-white overflow-hidden">
       <h2 className="text-h2">Why Choose Us</h2>
       <p className="text-white opacity-85 tracking-[.01em]">
-        The products we provide are different from others
+      It is our mission to make our dream court come true
       </p>
       <div className="flex flex-col items-center">
         <CardContainer />

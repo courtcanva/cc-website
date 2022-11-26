@@ -8,7 +8,7 @@ const CardContainer = () => {
 
   return (
     <div
-      className="relative flex flex-col md:flex-row md:space-x-10 md:animate-enterSlow w-[100%] items-center justify-center"
+      className="relative flex flex-col md:flex-row md:gap-10  md:animate-enterSlow w-full item-start lg:px-10"
     >
       {cartItemStyles.map((item, index) => (
         <CardItem {...item} key={index}  />
