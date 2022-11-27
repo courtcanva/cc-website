@@ -9,6 +9,9 @@ module.exports = {
         sans: ["var(--font-poppins)", ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        backgroundColor: "#4A4A4A",
+        white: "#ffffff",
+        btnText: "#f9f9f9",
         btnColor: "#F9F9F9",
       },
       opacity: {
@@ -16,15 +19,23 @@ module.exports = {
       },
       fontSize: {
         h2: [
-          "32px",
+          "2rem",
           {
             lineHeight: "48px",
             letterSpacing: "0.02em",
             fontWeight: "400",
           },
         ],
+        h1: [
+          "3rem",
+          {
+            fontWeight: "600",
+            lineHeight: "48px",
+            letterSpacing: "0.03em",
+          },
+        ],
         p: [
-          "16px",
+          "1rem",
           {
             lineHeight: "24px",
             letterSpacing: "0.01em",
@@ -34,11 +45,26 @@ module.exports = {
       },
       backgroundImage: {
         blue: "linear-gradient(33.75deg, #00B7BB 0%, #148EFF 100%)",
+        cardBorderBlue: "linear-gradient(33.75deg, #2AF598 0%, #009EFD 100%)",
+        btn: "linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%)",
         pink: "linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%);",
+        btnHover: "linear-gradient(33.75deg, #E961FF 0%, #EE0020 100%)",
+        cardBorder: "linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)",
+        cardBorderOne:
+          "linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #2AF598 0%, #009EFD 100%)",
+        cardBorderTwo:
+          "linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%)",
+        cardBorderThree:
+          "linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)",
       },
+
       keyframes: {
         template: {
           "0%": { transform: "translateX(300%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+        enter: {
+          "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(0)" },
         },
         introToRight: {
@@ -57,6 +83,9 @@ module.exports = {
         template4: "template 0.25s ease-in-out 0.75s backwards",
         template5: "template 0.25s ease-in-out 1s backwards",
         template6: "template 0.25s ease-in-out 1.25s backwards",
+        enterSlow: "enter .5s ease-in-out",
+        enterCard2: "enter .5s  ease-in-out 0.1s backwards",
+        enterCard3: "enter .5s ease-in-out 0.2s backwards ",
         introToRight1: "introToRight 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)",
         introToRight2: "introToRight 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.5s both",
         introToLeft1: "introToLeft 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)",
