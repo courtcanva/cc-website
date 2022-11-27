@@ -56,7 +56,6 @@ module.exports = {
           "linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)",
       },
 
-    
       keyframes: {
         template: {
           "0%": { transform: "translateX(300%)" },
@@ -74,9 +73,9 @@ module.exports = {
         template4: "template 0.25s ease-in-out 0.75s backwards",
         template5: "template 0.25s ease-in-out 1s backwards",
         template6: "template 0.25s ease-in-out 1.25s backwards",
-        enterSlow: "enter 1s ease-in-out",
-        enterCard2: "enter 1s  ease-in-out 0.5s backwards",
-        enterCard3: "enter 1s ease-in-out 1s backwards ",
+        enterSlow: "enter .5s ease-in-out",
+        enterCard2: "enter .5s  ease-in-out 0.1s backwards",
+        enterCard3: "enter .5s ease-in-out 0.2s backwards ",
       },
     },
   },
