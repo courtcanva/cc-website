@@ -12,6 +12,7 @@ module.exports = {
         backgroundColor: "#4A4A4A",
         white: "#ffffff",
         btnText: "#f9f9f9",
+        btnColor: "#F9F9F9",
       },
       opacity: {
         85: ".85",
@@ -46,6 +47,7 @@ module.exports = {
         blue: "linear-gradient(33.75deg, #00B7BB 0%, #148EFF 100%)",
         cardBorderBlue: "linear-gradient(33.75deg, #2AF598 0%, #009EFD 100%)",
         btn: "linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%)",
+        pink: "linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%);",
         btnHover: "linear-gradient(33.75deg, #E961FF 0%, #EE0020 100%)",
         cardBorder: "linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)",
         cardBorderOne:
@@ -65,6 +67,14 @@ module.exports = {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(0)" },
         },
+        introToRight: {
+          "0%": { transform: "translateX(-150%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+        introToLeft: {
+          "0%": { transform: "translateX(150%)" },
+          "100%": { transform: "translateX(0)" },
+        },
       },
       animation: {
         template1: "template 0.25s ease-in-out backwards",
@@ -76,6 +86,10 @@ module.exports = {
         enterSlow: "enter .5s ease-in-out",
         enterCard2: "enter .5s  ease-in-out 0.1s backwards",
         enterCard3: "enter .5s ease-in-out 0.2s backwards ",
+        introToRight1: "introToRight 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)",
+        introToRight2: "introToRight 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.5s both",
+        introToLeft1: "introToLeft 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)",
+        introToLeft2: "introToLeft 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.5s both",
       },
     },
   },

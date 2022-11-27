@@ -1,6 +1,6 @@
 import HeroContainer from "../components/hero/HeroContainer";
 import WhyChooseUs from "../components/WhyChooseUs";
-
+import Intro from "../components/Intro";
 import Template from "../components/Template";
 
 export default function Home() {
@@ -8,8 +8,7 @@ export default function Home() {
     <>
       <HeroContainer />
       <WhyChooseUs />
-      {/* To test scroll animation, uncomment the line below
-      <div className="h-screen">123321</div> */}
+      <Intro />
       <Template />
     </>
   );
