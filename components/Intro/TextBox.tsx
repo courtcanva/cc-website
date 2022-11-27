@@ -1,8 +1,7 @@
-import Link from "next/link";
 import React from "react";
 
 const TextBox = ({ title, text, inView, tennis }: any) => {
-  const designUrl = process.env.NEXT_PUBLIC_DESIGN_URL || "http://localhost:3000/";
+  const designUrl = process.env.NEXT_PUBLIC_DESIGN_URL || "/";
 
   return (
     <div
@@ -12,9 +11,9 @@ const TextBox = ({ title, text, inView, tennis }: any) => {
     >
       <h2 className="text-h2 mb-2">{title}</h2>
       <p className="text-p opacity-85 mb-4">{text}</p>
-      <Link className="btn-primary text-center md:w-fit block" href={designUrl}>
+      <a className="btn-primary text-center md:w-fit block" href={designUrl}>
         Get Started
-      </Link>
+      </a>
     </div>
   );
 };
