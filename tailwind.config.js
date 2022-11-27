@@ -18,7 +18,7 @@ module.exports = {
       },
       fontSize: {
         h2: [
-          "32px",
+          "2rem",
           {
             lineHeight: "48px",
             letterSpacing: "0.02em",
@@ -26,7 +26,7 @@ module.exports = {
           },
         ],
         h1: [
-          "48px",
+          "3rem",
           {
             fontWeight: "600",
             lineHeight: "48px",
@@ -34,7 +34,7 @@ module.exports = {
           },
         ],
         p: [
-          "16px",
+          "1rem",
           {
             lineHeight: "24px",
             letterSpacing: "0.01em",
@@ -56,9 +56,7 @@ module.exports = {
           "linear-gradient(to right,#4A4A4A, #4A4A4A),linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)",
       },
 
-      height: {
-        cardBody: "300px",
-      },
+    
       keyframes: {
         template: {
           "0%": { transform: "translateX(300%)" },
