@@ -10,7 +10,7 @@ const BasketballCourt = () => {
   };
 
   return (
-    <div className="w-full h-full relative  md:absolute  md:bottom-0 md:left-80 lg:left-80 z-20">
+    <div className="w-full h-full relative  md:absolute  md:bottom-0 md:left-80 lg:left-80 z-hero">
       <Spline
         scene="https://prod.spline.design/MeMyEYRtOOavHhan/scene.splinecode"
         onLoad={(spline) => spline.setZoom(handleLoad())}

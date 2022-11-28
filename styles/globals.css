@@ -3,20 +3,19 @@
 @tailwind utilities;
 
 .border-gradient {
-  border:1px solid transparent;
-  border-radius:8px;
-  background-clip: padding-box,border-box;
-  background-origin: padding-box,border-box;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
 }
 
 @layer components {
   .gradient-title {
-    @apply text-center rounded-md py-1.5 px-6 relative z-10 text-btnText;
+    @apply text-center rounded-md py-1.5 px-6 relative z-whyChooseUs text-btnText;
   }
   .gradient-container {
     @apply w-full px-[25px] -top-4 relative  md:px-[16px] lg:px-[21px] min-h-[300px] max-h-[400px] border-gradient;
   }
-
 }
 
 @layer components {

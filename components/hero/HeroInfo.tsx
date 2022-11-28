@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { designUrl } from "../constants/environments";
+import { designUrl } from "../../constants/environments";
 
 const HeroInfo = () => {
   return (

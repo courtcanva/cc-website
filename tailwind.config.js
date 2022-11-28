@@ -125,6 +125,15 @@ module.exports = {
         introToLeft1: "introToLeft 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)",
         introToLeft2: "introToLeft 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.5s both",
       },
+      screens: {
+        tablet: "834px",
+        desktop: "1280px",
+      },
+      zIndex: {
+        whyChooseUs: "10",
+        hero: "20",
+        top: "99999",
+      },
     },
   },
   plugins: [require("daisyui")],

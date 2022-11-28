@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import { designUrl } from "../../constants";
 import CardContainer from "./CardContainer";
-import { designUrl } from "../constants/environments";
 
 const WhyChooseUs = () => {
   return (
