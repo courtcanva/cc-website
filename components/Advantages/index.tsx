@@ -20,17 +20,12 @@ const Advantages = () => {
         {advantages.map((item, index) => {
           return (
             <div
+              key={index}
               className={`md:w-1/4 h-44 px-4 py-10 gap-2 rounded-lg bg-backgroundColor flex flex-col items-center ${
                 inView && (index < 2 ? "animate-advantageToRight" : "animate-advantageToLeft")
               }`}
             >
-              <Image
-                key={index}
-                src={`/Advantage${index + 1}.svg`}
-                width={64}
-                height={64}
-                alt="advantage"
-              />
+              <Image src={`/Advantage${index + 1}.svg`} width={64} height={64} alt="advantage" />
               <p>{item}</p>
             </div>
           );
