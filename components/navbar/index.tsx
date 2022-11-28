@@ -28,10 +28,7 @@ const NavBar = ({ open }: Props) => {
           </li>
         </ul>
         {/* create a design button */}
-        <a
-          href="#"
-          className="hidden tablet:block bg-pink px-6 py-1.5 rounded-md font-semibold text-typography-500 text-sm"
-        >
+        <a href="#" className="hidden tablet:block btn-primary">
           Create a design
         </a>
         {/* sandwich menu button */}

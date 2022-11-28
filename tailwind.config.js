@@ -13,10 +13,7 @@ module.exports = {
         sans: ["var(--font-poppins)", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        backgroundColor: "#4A4A4A",
-        white: "#ffffff",
-        btnText: "#f9f9f9",
-        btnColor: "#F9F9F9",
+        white: "#FFFFFF",
         background: {
           100: "#666666",
           200: "#575757",
@@ -80,7 +77,6 @@ module.exports = {
       backgroundImage: {
         blue: "linear-gradient(33.75deg, #00B7BB 0%, #148EFF 100%)",
         cardBorderBlue: "linear-gradient(33.75deg, #2AF598 0%, #009EFD 100%)",
-        btn: "linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%)",
         pink: "linear-gradient(33.75deg, #F092FF 0%, #EE213C 100%);",
         btnHover: "linear-gradient(33.75deg, #E961FF 0%, #EE0020 100%)",
         cardBorder: "linear-gradient(33.75deg, #ECC611 0%, #F83600 100%)",
