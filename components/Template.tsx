@@ -1,16 +1,16 @@
-import Image from 'next/image';
-import { useInView } from 'react-intersection-observer';
+import Image from "next/image";
+import { useInView } from "react-intersection-observer";
 
 const Template = () => {
   const { ref, inView } = useInView();
 
   const animations = [
-    'animate-template1',
-    'animate-template2',
-    'animate-template3',
-    'animate-template4',
-    'animate-template5',
-    'animate-template6',
+    "animate-template1",
+    "animate-template2",
+    "animate-template3",
+    "animate-template4",
+    "animate-template5",
+    "animate-template6",
   ];
 
   return (
@@ -26,7 +26,7 @@ const Template = () => {
               width={356}
               height={198}
               alt="template"
-              className={`${index !== 0 && '-ml-48'} flex-1 ${
+              className={`${index !== 0 && "-ml-48"} flex-1 ${
                 inView && e
               } drop-shadow-[-6px_6px_8px_rgba(0,0,0,0.25)] w-1`}
             />
