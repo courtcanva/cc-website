@@ -1,9 +1,7 @@
 import React from "react";
 import { designUrl } from "../constants/environments";
 
-
 const TextBox = ({ title, text, inView, tennis }: any) => {
-
   return (
     <div
       className={`md:max-w-[26rem] self-center md:justify-self-start ${

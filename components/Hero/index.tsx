@@ -1,7 +1,6 @@
-import React from 'react'
-import HeroInformation from './HeroInformation'
-import ThreeDimensionalCourt from './ThreeDimensionalCourt'
-
+import React from "react";
+import HeroInformation from "./HeroInformation";
+import ThreeDimensionalCourt from "./ThreeDimensionalCourt";
 
 const Hero = () => {
   return (
@@ -9,8 +8,7 @@ const Hero = () => {
       <HeroInformation />
       <ThreeDimensionalCourt />
     </section>
+  );
+};
 
-  )
-}
-
-export default Hero
+export default Hero;
