@@ -51,7 +51,7 @@ const NavModal = ({ close }: Props) => {
 export default NavModal;
 
 /**
- * helper function for prevent scrolling in body
+ * helper function for preventing scrolling in body
  */
 const useLockBodyScroll = () => {
   useLayoutEffect((): (() => void) => {
