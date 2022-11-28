@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { tabletWidth } from "../../constants";
+import { tabletWidth } from "../constants";
 
 const useNavModal = () => {
-  const [state, setState] = useState<boolean>(true);
+  const [state, setState] = useState<boolean>(false);
   const open = () => setState(true);
   const close = () => setState(false);
 

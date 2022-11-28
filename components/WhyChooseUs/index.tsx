@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import { designUrl } from "../../constants";
 import CardContainer from "./CardContainer";
@@ -12,12 +11,12 @@ const WhyChooseUs = () => {
       </p>
       <div className="flex flex-col items-center">
         <CardContainer />
-        <Link
+        <a
           href={designUrl}
           className="rounded-md w-full md:w-40 text-center py-1.5 mt-4 md:mt-8 bg-btn hover:bg-btnHover text-btnText tracking-[.01em]"
         >
           Start free trial
-        </Link>
+        </a>
       </div>
     </section>
   );

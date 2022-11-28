@@ -1,7 +1,7 @@
-import React from "react";
+import MyPageSeo from "../../components/SEOHeader";
 
 const Header = () => {
-  return <div></div>;
+  return <MyPageSeo />;
 };
 
 export default Header;

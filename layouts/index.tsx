@@ -8,10 +8,12 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div className="min-w-[390px] max-w-7xl mx-auto">
-      <Header />
-      <main>{children}</main>
-      <Footer />
+    <div className="bg-background-500">
+      <div className="min-w-[390px] max-w-7xl mx-auto">
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </div>
     </div>
   );
 };

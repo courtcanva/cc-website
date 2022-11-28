@@ -109,6 +109,14 @@ module.exports = {
           "0%": { transform: "translateX(150%)" },
           "100%": { transform: "translateX(0)" },
         },
+        navModalFadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "0.85" },
+        },
+        navModalFadeOut: {
+          "0%": { opacity: "0.85" },
+          "100%": { opacity: "0" },
+        },
       },
       animation: {
         template1: "template 0.25s ease-in-out backwards",
@@ -124,6 +132,8 @@ module.exports = {
         introToRight2: "introToRight 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.5s both",
         introToLeft1: "introToLeft 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)",
         introToLeft2: "introToLeft 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.5s both",
+        navModalFadeIn: "navModalFadeIn 0.3s ease-in-out",
+        navModalFadeOut: "navModalFadeOut 1s ease-in-out",
       },
       screens: {
         tablet: "834px",

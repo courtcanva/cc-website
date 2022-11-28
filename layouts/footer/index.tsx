@@ -23,7 +23,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="p-2.5 flex flex-col gap-2.5 items-center tablet:items-star tablet:flex-1">
+        <div className="p-2.5 flex flex-col gap-2.5 items-center tablet:items-start tablet:flex-1">
           <h4 className="text-h4">LEGAL</h4>
           <div className="text-p text-typography-400 flex flex-col gap-2.5 items-center tablet:items-start">
             <a href="#" className="block">
