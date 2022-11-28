@@ -1,7 +1,8 @@
 import React from "react";
+import { designUrl } from "../constants/environments";
+
 
 const TextBox = ({ title, text, inView, tennis }: any) => {
-  const designUrl = process.env.NEXT_PUBLIC_DESIGN_URL || "/";
 
   return (
     <div

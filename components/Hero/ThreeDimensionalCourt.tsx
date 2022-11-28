@@ -2,7 +2,7 @@ import React from "react";
 import Spline from "@splinetool/react-spline";
 import { useMediaQuery } from "usehooks-ts";
 
-const BasketballCourt = () => {
+const ThreeDimensionalCourt = () => {
   const matchIpad = useMediaQuery("(min-width: 768px)");
   const matchDesktop = useMediaQuery("(min-width: 1024px)");
   const handleLoad = () => {
@@ -19,4 +19,4 @@ const BasketballCourt = () => {
   );
 };
 
-export default BasketballCourt;
+export default ThreeDimensionalCourt;
