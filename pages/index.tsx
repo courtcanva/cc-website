@@ -4,13 +4,14 @@ import Template from "../components/Template";
 import NavBar from "../components/navbar";
 import useNavModal from "../components/navbar/useNavModal";
 import NavModal from "../components/navbar/NavModal";
+import Hero from "../components/Hero";
 
 export default function Home() {
   const { open: openMenuModal, close: closeMenuModal, state: navModalState } = useNavModal();
   return (
     <>
       <NavBar open={openMenuModal} />
-      <HeroContainer />
+      <Hero />
       <WhyChooseUs />
       <Intro />
       <Template />

@@ -1,5 +1,5 @@
 import React from "react";
-import { designUrl } from "../constants/environments";
+import { designUrl } from "../../constants";
 
 const TextBox = ({ title, text, inView, tennis }: any) => {
   return (
