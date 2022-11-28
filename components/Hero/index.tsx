@@ -1,14 +1,14 @@
 import React from "react";
-import BasketballCourt from "./BasketballCourt";
-import HeroInfo from "./HeroInfo";
+import HeroInformation from "./HeroInformation";
+import ThreeDimensionalCourt from "./ThreeDimensionalCourt";
 
-const HeroContainer = () => {
+const Hero = () => {
   return (
     <section className="max-w-7xl  bg-blue flex flex-col margin-auto md:py-[106px] lg:py-[143px]  md:w-[100vw] relative  mx-auto border-white text-white overflow-hidden">
-      <HeroInfo />
-      <BasketballCourt />
+      <HeroInformation />
+      <ThreeDimensionalCourt />
     </section>
   );
 };
 
-export default HeroContainer;
+export default Hero;

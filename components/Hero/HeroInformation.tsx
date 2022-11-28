@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { designUrl } from "../../constants/environments";
 
-const HeroInfo = () => {
+const HeroInformation = () => {
   return (
     <section className=" relative flex flex-col w-full md:w-[328px]  lg:w-[450px]  items-center md:items-start  md:ml-8 lg:ml-[48px]  pt-[45px] md:pt-0  text-center md:text-left">
       <h1 className="text-[2.5rem] font-semibold leading-tight leading-1.2 tracking-[.03em] px-[31px] md:px-0">
@@ -21,4 +21,4 @@ const HeroInfo = () => {
   );
 };
 
-export default HeroInfo;
+export default HeroInformation;
