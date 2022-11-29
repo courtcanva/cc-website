@@ -69,7 +69,7 @@ module.exports = {
           "20px",
           {
             lineHeight: "32px",
-            letterSpacing: "0.03em",
+            letterSpacing: "0.02em",
             fontWeight: "300",
           },
         ],

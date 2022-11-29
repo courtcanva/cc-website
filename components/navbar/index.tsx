@@ -16,7 +16,7 @@ const NavBar = ({ open }: Props) => {
           <p className="text-p tablet:text-logoText text-typography-500">CourtCanva</p>
         </div>
         {/* nav bar content */}
-        <ul className="hidden tablet:block text-p text-white w-[233px] h-6 tablet:flex tablet:justify-between tablet:items-center">
+        <ul className="hidden text-p text-white w-[233px] h-6 tablet:flex tablet:justify-between tablet:items-center">
           <li>
             <a href="#">Home</a>
           </li>
