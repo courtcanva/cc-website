@@ -7,7 +7,7 @@ const Advantages = () => {
 
   return (
     <section
-      className="max-w-7xl mx-auto pt-10 pb-20 px-3 md:px-6 lg:px-12 g-4 md:g-8 bg-purpleBlue text-white font-light overflow-hidden"
+      className="max-w-7xl mx-auto pt-10 pb-20 px-3 md:px-6 lg:px-12 bg-purpleBlue text-white font-light overflow-hidden"
       ref={ref}
     >
       <h2 className={`text-h2 tracking-[.02em] ${inView && "animate-advantageFadeIn"}`}>
@@ -21,11 +21,11 @@ const Advantages = () => {
           return (
             <div
               key={index}
-              className={`md:w-1/4 h-44 px-4 py-10 gap-2 rounded-lg bg-backgroundColor flex flex-col items-center ${
+              className={`w-full h-44 px-4 py-10 gap-2 rounded-lg bg-backgroundColor flex flex-col items-center ${
                 inView && (index < 2 ? "animate-advantageToRight" : "animate-advantageToLeft")
               }`}
             >
-              <Image src={`/Advantage${index + 1}.svg`} width={64} height={64} alt="advantage" />
+              <Image src={`/Advantage${index + 1}.svg`} width={64} height={64} alt={`${item}`} />
               <p>{item}</p>
             </div>
           );

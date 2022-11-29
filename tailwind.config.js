@@ -69,14 +69,12 @@ module.exports = {
           "100%": { transform: "translateX(0)" },
         },
         fadeIn: {
-          "0%": { opacity: "0", transform: "translateY(-1px)" },
-          "95%": { opacity: "1", transform: "translateY(-1px)" },
-          "100%": { opacity: "1", transform: "translateY(0px)" },
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
         },
         fadeIn85: {
-          "0%": { opacity: "0", transform: "translateY(-1px)" },
-          "95%": { opacity: "0.85", transform: "translateY(-1px)" },
-          "100%": { opacity: "0.85", transform: "translateY(0)" },
+          "0%": { opacity: "0" },
+          "100%": { opacity: "0.85" },
         },
         enterRight: {
           "0%": { opacity: "0", transform: "translateX(-250%)" },
