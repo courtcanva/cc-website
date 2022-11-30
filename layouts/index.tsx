@@ -9,11 +9,13 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
   return (
-    <BackgroundWrapper>
+    <>
       <Header />
-      <main>{children}</main>
-      <Footer />
-    </BackgroundWrapper>
+      <BackgroundWrapper>
+        <main>{children}</main>
+        <Footer />
+      </BackgroundWrapper>
+    </>
   );
 };
 

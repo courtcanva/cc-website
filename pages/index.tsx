@@ -11,7 +11,7 @@ export default function Home() {
   const { open: openMenuModal, close: closeMenuModal, state: navModalState } = useNavModal();
   return (
     <>
-      <NavBar open={openMenuModal} />
+      <NavBar open={openMenuModal} state={navModalState} />
       <Hero />
       <WhyChooseUs />
       <Advantages />

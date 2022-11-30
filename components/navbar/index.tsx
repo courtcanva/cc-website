@@ -1,10 +1,12 @@
 import Image from "next/image";
+import { designUrl } from "../../constants";
 
 type Props = {
   open: () => void;
+  state: boolean;
 };
 
-const NavBar = ({ open }: Props) => {
+const NavBar = ({ open, state }: Props) => {
   return (
     <>
       <nav className="bg-background-300 px-3 py-4 tablet:px-8 desktop:px-12 flex flex-row justify-between items-center z-component">
@@ -30,12 +32,14 @@ const NavBar = ({ open }: Props) => {
           </li>
         </ul>
         {/* create a design button */}
-        <a href="#" className="hidden tablet:block btn-primary">
+        <a href={designUrl} className="hidden tablet:block btn-primary">
           Create a design
         </a>
         {/* sandwich menu button */}
         <div
-          className="w-4 h-3 cursor-pointer flex flex-col justify-between tablet:hidden"
+          className={`w-4 h-3 cursor-pointer flex flex-col justify-between tablet:hidden ${
+            state && "hidden"
+          }`}
           onClick={open}
         >
           <span className="h-0.5 w-full bg-typography-500 block"></span>

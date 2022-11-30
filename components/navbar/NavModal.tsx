@@ -32,13 +32,13 @@ const NavModal = ({ close }: Props) => {
       ></div>
       {/* nav items */}
       <ul className="flex flex-col items-center text-h2 text-white gap-16">
-        <li className="nav-menu-hover">
+        <li className="nav-menu-active">
           <a href="#">Home</a>
         </li>
-        <li className="nav-menu-hover">
+        <li className="nav-menu-active">
           <a href="#">Design</a>
         </li>
-        <li className="nav-menu-hover">
+        <li className="nav-menu-active">
           <a href="#">About us</a>
         </li>
       </ul>

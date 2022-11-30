@@ -22,4 +22,7 @@
   .nav-menu-hover {
     @apply hover:underline hover:decoration-primary-500;
   }
+  .nav-menu-active {
+    @apply active:underline active:decoration-primary-500;
+  }
 }
