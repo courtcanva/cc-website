@@ -1,4 +1,5 @@
 import React, { useLayoutEffect, useState } from "react";
+import { designUrl, teamUrl } from "../../constants";
 
 type Props = {
   close: () => void;
@@ -36,10 +37,10 @@ const NavModal = ({ close }: Props) => {
           <a href="#">Home</a>
         </li>
         <li className="nav-menu-active">
-          <a href="#">Design</a>
+          <a href={designUrl}>Design</a>
         </li>
         <li className="nav-menu-active">
-          <a href="#">About us</a>
+          <a href={teamUrl}>About us</a>
         </li>
       </ul>
     </nav>
