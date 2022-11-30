@@ -1,1 +1,1 @@
-export const tabletWidth = 834;
+export const mdWidth = 834;

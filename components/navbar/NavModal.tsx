@@ -21,7 +21,7 @@ const NavModal = ({ close }: Props) => {
       className={`z-top bg-background-500 fixed w-full min-w-[390px] h-screen left-0 top-0 opacity-85
         flex justify-center items-center
         ${isShowing ? "animate-navModalFadeIn" : "animate-navModalFadeOut"}
-        tablet:hidden`}
+        md:hidden`}
     >
       {/* close button */}
       <div

@@ -159,10 +159,6 @@ module.exports = {
         navModalFadeIn: "navModalFadeIn 0.3s ease-in-out",
         navModalFadeOut: "navModalFadeOut 0.3s ease-in-out",
       },
-      screens: {
-        tablet: "834px",
-        desktop: "1280px",
-      },
       zIndex: {
         backgroundVector: "10",
         component: "20",

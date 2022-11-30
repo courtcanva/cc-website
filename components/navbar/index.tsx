@@ -9,18 +9,16 @@ type Props = {
 const NavBar = ({ open, state }: Props) => {
   return (
     <>
-      <nav className="bg-background-300 px-3 py-4 tablet:px-8 desktop:px-12 flex flex-row justify-between items-center z-component">
+      <nav className="bg-background-300 px-3 py-4 md:px-8 desktop:px-12 flex flex-row justify-between items-center z-component">
         {/* logo and logo text */}
         <div className="flex flex-row gap-2 items-center">
-          <div className="relative w-8 h-8 tablet:w-9 tablet:h-9">
+          <div className="relative w-8 h-8 md:w-9 md:h-9">
             <Image src="/cc-logo.svg" alt="court canva logo" layout="fill" objectFit="contain" />
           </div>
-          <p className="text-p tablet:text-logoText tablet:font-light text-typography-500">
-            CourtCanva
-          </p>
+          <p className="text-p md:text-logoText md:font-light text-typography-500">CourtCanva</p>
         </div>
         {/* nav bar content */}
-        <ul className="hidden text-p text-white w-[233px] h-6 tablet:flex tablet:justify-between tablet:items-center">
+        <ul className="hidden text-p text-white w-[233px] h-6 md:flex md:justify-between md:items-center">
           <li className="nav-menu-hover">
             <a href="#">Home</a>
           </li>
@@ -32,12 +30,12 @@ const NavBar = ({ open, state }: Props) => {
           </li>
         </ul>
         {/* create a design button */}
-        <a href={designUrl} className="hidden tablet:block btn-primary">
+        <a href={designUrl} className="hidden md:block btn-primary">
           Create a design
         </a>
         {/* sandwich menu button */}
         <div
-          className={`w-4 h-3 cursor-pointer flex flex-col justify-between tablet:hidden ${
+          className={`w-4 h-3 cursor-pointer flex flex-col justify-between md:hidden ${
             state && "hidden"
           }`}
           onClick={open}
