@@ -143,9 +143,16 @@ module.exports = {
         desktop: "1280px",
       },
       zIndex: {
-        whyChooseUs: "10",
-        hero: "20",
+        backgroundVector: "10",
+        component: "20",
+        whyChooseUs: "50",
+        hero: "50",
         top: "99999",
+      },
+      inset: {
+        "5%": "5%",
+        "70%": "70%",
+        "80%": "80%",
       },
     },
   },

@@ -7,7 +7,7 @@ const Intro = () => {
 
   return (
     <section
-      className="max-w-7xl mx-auto px-3 sm:px-8 lg:px-20 py-12 bg-black/30 overflow-hidden text-white grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-2.5 justify-items-center"
+      className="max-w-7xl mx-auto px-3 sm:px-8 lg:px-20 py-12 bg-black/30 overflow-hidden text-white grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-2.5 justify-items-center z-component"
       ref={ref}
     >
       <Image

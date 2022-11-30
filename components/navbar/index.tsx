@@ -7,7 +7,7 @@ type Props = {
 const NavBar = ({ open }: Props) => {
   return (
     <>
-      <nav className="bg-background-300 px-3 py-4 tablet:px-8 desktop:px-12 flex flex-row justify-between items-center">
+      <nav className="bg-background-300 px-3 py-4 tablet:px-8 desktop:px-12 flex flex-row justify-between items-center z-component">
         {/* logo and logo text */}
         <div className="flex flex-row gap-2 items-center">
           <div className="relative w-8 h-8 tablet:w-9 tablet:h-9">
