@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { designUrl } from "../../constants";
+import { designUrl, teamUrl } from "../../constants";
 
 type Props = {
   open: () => void;
@@ -23,10 +23,10 @@ const NavBar = ({ open, state }: Props) => {
             <a href="#">Home</a>
           </li>
           <li className="nav-menu-hover">
-            <a href="#">Design</a>
+            <a href={designUrl}>Design</a>
           </li>
           <li className="nav-menu-hover">
-            <a href="#">About us</a>
+            <a href={teamUrl}>About us</a>
           </li>
         </ul>
         {/* create a design button */}
