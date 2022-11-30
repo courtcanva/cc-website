@@ -13,7 +13,7 @@ const BackgroundWrapper = ({ children }: Props) => {
         <div className="z-backgroundVector absolute w-[348px] h-[369px] left-70% top-12% tablet:top-14% tablet:left-85%">
           <Image src="/basketball.svg" alt="basketball vector" layout="fill" objectFit="contain" />
         </div>
-        <div className="z-backgroundVector absolute w-[817px] h-[866px] rotate-85 -left-70% top-20% tablet:top-30% tablet:-left-10%">
+        <div className="z-backgroundVector absolute w-[817px] h-[866px] rotate-85 right-47% top-20% tablet:top-30% tablet:-left-10%">
           <Image src="/basketball.svg" alt="basketball vector" layout="fill" objectFit="contain" />
         </div>
         <div className="z-backgroundVector absolute w-[449px] h-[449px] -right-47% top-47% tablet:top-56% tablet:-right-20%">
