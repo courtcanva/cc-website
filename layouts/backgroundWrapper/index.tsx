@@ -9,7 +9,7 @@ const BackgroundWrapper = ({ children }: Props) => {
   return (
     <div className="bg-background-500">
       <div className="min-w-[390px] max-w-7xl mx-auto overflow-hidden relative">
-        <main>{children}</main>
+        <div>{children}</div>
         <div className="z-backgroundVector absolute w-[348px] h-[369px] left-70% top-12% md:top-14% md:left-85%">
           <Image src="/basketball.svg" alt="basketball vector" layout="fill" objectFit="contain" />
         </div>

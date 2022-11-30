@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { designUrl } from "../../constants";
+import { designUrl, teamUrl } from "../../constants";
 
 type Props = {
   open: () => void;
@@ -9,7 +9,7 @@ type Props = {
 const NavBar = ({ open, state }: Props) => {
   return (
     <>
-      <nav className="bg-background-300 px-3 py-4 md:px-8 desktop:px-12 flex flex-row justify-between items-center z-component">
+      <nav className="bg-background-300 px-3 py-4 md:px-8 desktop:px-12 flex flex-row justify-between items-center">
         {/* logo and logo text */}
         <div className="flex flex-row gap-2 items-center">
           <div className="relative w-8 h-8 md:w-9 md:h-9">
@@ -23,10 +23,10 @@ const NavBar = ({ open, state }: Props) => {
             <a href="#">Home</a>
           </li>
           <li className="nav-menu-hover">
-            <a href="#">Design</a>
+            <a href={designUrl}>Design</a>
           </li>
           <li className="nav-menu-hover">
-            <a href="#">About us</a>
+            <a href={teamUrl}>About us</a>
           </li>
         </ul>
         {/* create a design button */}
