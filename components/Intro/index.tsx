@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <div className="bg-black/30">
       <section
-        className="relative z-component max-w-7xl mx-auto px-3 sm:px-8 lg:px-20 py-12 overflow-hidden text-white grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-2.5 justify-items-center"
+        className="relative z-component px-3 sm:px-8 lg:px-20 py-12 overflow-hidden text-white grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-2.5 justify-items-center"
         ref={ref}
       >
         <Image

@@ -8,7 +8,7 @@ const Advantages = () => {
   return (
     <div className="relative z-component">
       <section
-        className="max-w-7xl mx-auto pt-10 pb-20 px-3 md:px-6 lg:px-12 bg-purpleBlue text-white font-light overflow-hidden"
+        className="pt-10 pb-20 px-3 md:px-6 lg:px-12 bg-purpleBlue text-white font-light overflow-hidden"
         ref={ref}
       >
         <h2 className={`text-h2 tracking-[.02em] ${inView && "animate-advantageFadeIn"}`}>
