@@ -14,8 +14,8 @@ const Template = () => {
   ];
 
   return (
-    <div className="relative z-component">
-      <section className="px-3 sm:px-6 lg:px-12 pt-12 pb-20 bg-blue overflow-hidden text-white z-component">
+    <section className="relative z-component">
+      <div className="px-3 sm:px-6 lg:px-12 pt-12 pb-20 bg-blue overflow-hidden text-white z-component">
         <h2 className="text-h2 ">Template Collection</h2>
         <p className="text-p opacity-85 mb-8">Your Design. Your court.</p>
         <div className="flex" ref={ref}>
@@ -34,8 +34,8 @@ const Template = () => {
             );
           })}
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

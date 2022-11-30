@@ -6,8 +6,8 @@ const Advantages = () => {
   const advantages = ["Online tools", "Customise", "High quality", "Years guarantee"];
 
   return (
-    <div className="relative z-component">
-      <section
+    <section className="relative z-component">
+      <div
         className="pt-10 pb-20 px-3 md:px-6 lg:px-12 bg-purpleBlue text-white font-light overflow-hidden"
         ref={ref}
       >
@@ -34,8 +34,8 @@ const Advantages = () => {
             );
           })}
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
