@@ -13,7 +13,7 @@ export const cartItemStyles = [
   },
   {
     styles: {
-      titleGradient: "bg-btn",
+      titleGradient: "bg-pink",
       borderGradient: "bg-cardBorderTwo",
       animation: "animate-enterCard2",
     },
