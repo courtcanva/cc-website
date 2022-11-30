@@ -4,8 +4,8 @@ import CardContainer from "./CardContainer";
 
 const WhyChooseUs = () => {
   return (
-    <div className="bg-background-300">
-      <section className="px-3 md:px-8 py-12 lg:px-12 w-full relative text-white overflow-hidden z-component">
+    <section className="bg-background-300">
+      <div className="px-3 md:px-8 py-12 lg:px-12 w-full relative text-white overflow-hidden z-component">
         <h2 className="text-h2 ">Why Choose Us</h2>
         <p className="text-white opacity-85 tracking-[.01em] w-[95%]">
           It is our mission to make our dream court come true
@@ -19,8 +19,8 @@ const WhyChooseUs = () => {
             Start free trial
           </a>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

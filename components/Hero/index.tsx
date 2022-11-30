@@ -4,12 +4,12 @@ import ThreeDimensionalCourt from "./ThreeDimensionalCourt";
 
 const Hero = () => {
   return (
-    <div className="relative z-component">
-      <section className="bg-blue flex flex-col margin-auto md:py-[106px] lg:py-[143px]  md:w-[100vw] relative  mx-auto border-white text-white overflow-hidden">
+    <section className="relative z-component">
+      <div className="bg-blue flex flex-col margin-auto md:py-[106px] lg:py-[143px] relative mx-auto border-white text-white overflow-hidden">
         <HeroInformation />
         <ThreeDimensionalCourt />
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

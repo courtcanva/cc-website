@@ -6,8 +6,8 @@ const Intro = () => {
   const { ref, inView } = useInView();
 
   return (
-    <div className="bg-black/30">
-      <section
+    <section className="bg-black/30">
+      <div
         className="relative z-component px-3 sm:px-8 lg:px-20 py-12 overflow-hidden text-white grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-2.5 justify-items-center"
         ref={ref}
       >
@@ -36,8 +36,8 @@ const Intro = () => {
           title="A Full Size Tennis Court"
           text="Change your favorite color scheme, set court ranges and get the full size tennis court that suits your best"
         />
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
