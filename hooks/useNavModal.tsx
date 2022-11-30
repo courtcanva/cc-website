@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { mdWidth } from "../constants";
+import { tabletWidth } from "../constants";
 
 const useNavModal = () => {
   const [state, setState] = useState<boolean>(false);
@@ -8,7 +8,7 @@ const useNavModal = () => {
 
   const resizeUpdate = () => {
     const screenWidth = window.innerWidth;
-    if (screenWidth >= mdWidth) close();
+    if (screenWidth >= tabletWidth) close();
   };
 
   // screen resize listener
