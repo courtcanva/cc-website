@@ -9,7 +9,7 @@ const NavModal = ({ close }: Props) => {
 
   const closeModal = () => {
     setIsShowing(false);
-    setTimeout(close, 300);
+    setTimeout(close, 290);
   };
 
   // prevent scolling
@@ -32,13 +32,13 @@ const NavModal = ({ close }: Props) => {
       ></div>
       {/* nav items */}
       <ul className="flex flex-col items-center text-h2 text-white gap-16">
-        <li>
+        <li className="nav-menu-hover">
           <a href="#">Home</a>
         </li>
-        <li>
+        <li className="nav-menu-hover">
           <a href="#">Design</a>
         </li>
-        <li>
+        <li className="nav-menu-hover">
           <a href="#">About us</a>
         </li>
       </ul>

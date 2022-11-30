@@ -13,17 +13,19 @@ const NavBar = ({ open }: Props) => {
           <div className="relative w-8 h-8 tablet:w-9 tablet:h-9">
             <Image src="/cc-logo.svg" alt="court canva logo" layout="fill" objectFit="contain" />
           </div>
-          <p className="text-p tablet:text-logoText text-typography-500">CourtCanva</p>
+          <p className="text-p tablet:text-logoText tablet:font-light text-typography-500">
+            CourtCanva
+          </p>
         </div>
         {/* nav bar content */}
         <ul className="hidden text-p text-white w-[233px] h-6 tablet:flex tablet:justify-between tablet:items-center">
-          <li>
+          <li className="nav-menu-hover">
             <a href="#">Home</a>
           </li>
-          <li>
+          <li className="nav-menu-hover">
             <a href="#">Design</a>
           </li>
-          <li>
+          <li className="nav-menu-hover">
             <a href="#">About us</a>
           </li>
         </ul>
